@@ -26,10 +26,10 @@ COPY static/ ./static/
 RUN mkdir -p /tmp/uploads
 
 # Expose port
-EXPOSE 5000
+EXPOSE 5050
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 
 # Run with gunicorn for production
-CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "2", "--timeout", "120", "app:app"]
+CMD ["gunicorn", "--bind", "0.0.0.0:5050", "--workers", "2", "--timeout", "120", "app:app"]
