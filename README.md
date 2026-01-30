@@ -121,13 +121,13 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Visit `http://localhost:5000` in your browser.
+Visit `http://localhost:5050` in your browser.
 
 ### Docker Deployment
 
 ```bash
 docker build -t alcohol-label-verifier .
-docker run -p 5000:5000 alcohol-label-verifier
+docker run -p 5050:5050 alcohol-label-verifier
 ```
 
 ---
@@ -154,7 +154,7 @@ docker run -p 5000:5000 alcohol-label-verifier
 ### API Endpoint
 
 ```bash
-curl -X POST http://localhost:5000/api/verify \
+curl -X POST http://localhost:5050/api/verify \
   -F "image=@label.png" \
   -F "brand_name=Silver Oak Ranch" \
   -F "class_type=Cabernet Sauvignon" \
@@ -244,6 +244,7 @@ If this prototype advances to production consideration:
 4. **Confidence calibration** - Train thresholds on larger labeled dataset
 5. **Audit logging** - Track all verification decisions for compliance
 6. **COLA integration** - API bridge to existing systems (requires separate authorization)
+7. **Better Webhost** - I am using Render's free version, so it is slow and adds latency. A more robust host would improve this.
 
 ---
 
