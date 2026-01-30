@@ -754,7 +754,7 @@ def verify_label(image_path, label_data):
     }
     
     fields = [
-        ('brand_name', label_data.get('brand_name', ''), 70),
+        ('brand_name', label_data.get('brand_name', ''), 90),
         ('class_type', label_data.get('class_type', ''), 80),
         ('net_contents', label_data.get('net_contents', ''), 75),
         ('producer_name', label_data.get('producer_name', ''), 80),
