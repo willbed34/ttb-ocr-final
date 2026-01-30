@@ -39,7 +39,7 @@ OCR_CORRECTIONS = {
     'micheiob': 'michelob', 'michelab': 'michelob', 'mlcheleb': 'michelob',
     'micheloh': 'michelob', 'michclob': 'michelob', 'micheieb': 'michelob',
     'rnichelob': 'michelob', 'miehelob': 'michelob', 'micheob': 'michelob',
-    'miheleb': 'michelob'
+    'miheleb': 'michelob',
     # Ultra variations
     'uttra': 'ultra', 'u1tra': 'ultra', 'uitra': 'ultra', 'ultr4': 'ultra',
     'uiltra': 'ultra', 'uitr4': 'ultra', 'ulira': 'ultra', 'utra': 'ultra',
