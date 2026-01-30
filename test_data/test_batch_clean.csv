@@ -1,0 +1,11 @@
+image_filename,brand_name,class_type,alcohol_content,net_contents,producer_name,city,country
+test_01_perfect_match.png,SILVER OAK RANCH,California Cabernet Sauvignon,14.8%,750 mL,Silver Oak Winery,Alexander Valley,USA
+test_02_case_difference.png,Stone's Throw,Kentucky Straight Bourbon Whiskey,45%,750 mL,Stone's Throw Distillery,Louisville,USA
+test_03_wrong_abv.png,MOUNTAIN CREEK,Tennessee Whiskey,43%,750 mL,Mountain Creek Distillery,Nashville,USA
+test_04_missing_warning.png,GOLDEN VALLEY,California Chardonnay,13.5%,750 mL,Golden Valley Vineyards,Napa,USA
+test_05_wrong_volume.png,BLUE HARBOR,Pinot Noir,14.2%,1.5 L,Blue Harbor Vintners,Sonoma,USA
+test_06_beer_correct.png,Sierra Nevada,Pale Ale,5.6%,12 fl oz,Sierra Nevada Brewing Co.,Chico,USA
+test_07_wrong_brand.png,Bronze Mountain,American Single Malt Whiskey,46%,750 mL,Copper Mountain Distilling,Denver,USA
+test_08_import_correct.png,CHATEAU MARGAUX,Bordeaux Red Wine,13.5%,750 mL,Chateau Margaux Estate,Bordeaux,France
+test_09_vodka_correct.png,Crystal Clear,Premium Vodka,40%,1 Liter,Crystal Clear Spirits,Austin,USA
+test_10_multiple_errors.png,Sunrise Valley,California Merlot,13.0%,750 mL,Sunset Valley Winery,Paso Robles,USA
