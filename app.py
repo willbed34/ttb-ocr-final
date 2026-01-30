@@ -547,7 +547,7 @@ def verify_field(field_value, extracted_text, threshold=70, field_name=None):
         return (False, 0, "No text extracted from image")
 
     #remove excess spaces:
-    field_value = " ".join(text.split())
+    field_value = " ".join(field_value.split())
     
     # Use strict verification for net_contents (numbers must match exactly)
     if field_name == 'net_contents':
