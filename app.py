@@ -430,8 +430,10 @@ def extract_text_from_image(image_path):
         
         # Single OCR pass
         text = pytesseract.image_to_string(image, config='--oem 3 --psm 3')
+
+        text = " ".join(text.split())
         
-        return text.strip()
+        return text
         
     except Exception as e:
         return ""
@@ -506,6 +508,7 @@ def verify_net_contents(input_value, extracted_text):
         r'(\d+\.?\d*)\s*L\b',
         r'(\d+\.?\d*)\s*LITER',
         r'(\d+\.?\d*)\s*OZ',
+        r'(\d+\.?\d*)\s*PINT',
     ]
     
     text_upper = extracted_text.upper()
@@ -542,6 +545,9 @@ def verify_field(field_value, extracted_text, threshold=70, field_name=None):
         return (True, 100, "Field not provided (optional)")
     if not extracted_text:
         return (False, 0, "No text extracted from image")
+
+    #remove excess spaces:
+    field_value = " ".join(text.split())
     
     # Use strict verification for net_contents (numbers must match exactly)
     if field_name == 'net_contents':
