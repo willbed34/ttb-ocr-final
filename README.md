@@ -8,7 +8,7 @@ This project is a **standalone proof-of-concept** built in response to the provi
 
 ## Deployed Prototype
 
-**Live Application:** https://best-prompt.onrender.com/
+**Live Application:** [https://best-prompt.onrender.com/](https://ttb-ocr-final-wb.onrender.com/)
 
 **How to Use:**
 1. Visit the deployed URL to test the working prototype, **or**
