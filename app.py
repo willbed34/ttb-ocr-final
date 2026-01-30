@@ -428,7 +428,7 @@ def extract_text_from_image(image_path):
         image = enhancer.enhance(1.5)
         
         # Single OCR pass
-        text = pytesseract.image_to_string(image, config='--oem 3 --psm 6')
+        text = pytesseract.image_to_string(image, config='--oem 3 --psm 3')
         
         return text.strip()
         
