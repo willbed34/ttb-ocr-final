@@ -80,7 +80,7 @@ OCR_CORRECTIONS = {
     # Yuengling
     'yueng1ing': 'yuengling', 'yuengllng': 'yuengling', 'yuengiing': 'yuengling',
     # Sierra Nevada
-    'slerra': 'sierra', 's1erra': 'sierra', 'siarra': 'sierra',
+    'slerra': 'sierra', 's1erra': 'sierra', 'siarra': 'sierra', 'sterra': 'sierra',
     'nevado': 'nevada', 'nevad0': 'nevada', 'n3vada': 'nevada',
     # Lagunitas
     'lagunltas': 'lagunitas', '1agunitas': 'lagunitas', 'lagunits': 'lagunitas',
@@ -254,12 +254,13 @@ OCR_CORRECTIONS = {
     # === VOLUME/ALCOHOL CONTENT ===
     'a1c': 'alc', 'aic': 'alc', 'a1c.': 'alc.', 'alcc': 'alc',
     'vo1': 'vol', 'voi': 'vol', 'v0l': 'vol', 'vo1.': 'vol.',
-    'o2': 'oz', '02': 'oz', 'oz.': 'oz', '0z': 'oz',
+    'o2': 'oz', '02': 'oz', 'oz.': 'oz', '0z': 'oz', '07': 'oz', 'o7': 'oz',
     'f1': 'fl', 'fi': 'fl', 'fl.': 'fl',
     'm1': 'ml', 'mi': 'ml', 'rnl': 'ml',
     '1iter': 'liter', 'llter': 'liter', 'litre': 'liter',
     'abv': 'abv', 'a8v': 'abv', 'abvv': 'abv',
     'pr00f': 'proof', 'prooof': 'proof', 'pro0f': 'proof',
+    'p1nt': 'pint', 'p1n1': 'pint',
     
     # === GOVERNMENT WARNING TEXT ===
     # Common word errors
@@ -282,7 +283,7 @@ OCR_CORRECTIONS = {
     'wom3n': 'women', 'wornen': 'women', 'wamen': 'women',
     'dr1nk': 'drink', 'drlnk': 'drink', 'drnk': 'drink',
     'a1coholic': 'alcoholic', 'aicoholic': 'alcoholic', 'alcoholc': 'alcoholic',
-    'alcoho1ic': 'alcoholic',
+    'alcoho1ic': 'alcoholic', 'aleoholic': 'alcoholic',
     'beverag3s': 'beverages', 'beveraqes': 'beverages', 'bevereges': 'beverages',
     'dur1ng': 'during', 'durinq': 'during', 'durng': 'during',
     'becaus3': 'because', 'b3cause': 'because', 'becuase': 'because',
