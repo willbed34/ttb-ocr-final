@@ -188,7 +188,7 @@ I've tested this application extensively against real and AI-generated images.
 While not always 100% accurate, it does fare decently well, and OCR failures can indicate bad readibility on the label.
 In the test_data folder, you'll see AI generated images as well as a real alcohol label.
 The AI generated images contain both correct and incorrect labels. The real label is correct.
-Feel free to use these files to test against my app. Please do not load all ten at once, as I am limited by Render's free subscription space allocations.
+Feel free to use these files to test against my app. Please do not load all ten at once on the live version, as I am limited by Render's free subscription space allocations.
 
 
 ---
